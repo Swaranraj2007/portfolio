@@ -1,0 +1,129 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    min-height: 100vh;
+}
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 2px solid white;
+  }
+  
+  .fullscreen-pic {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .fullscreen-pic img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 4px solid white;
+    border-radius: 12px;
+  }
+  
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(202, 5, 5, 0.2);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+    height: 50px;
+    display: flex; 
+    justify-content: end;
+    align-items: center; 
+    padding: 0 2rem; 
+    margin-right: 2rem;
+    gap: 3rem; 
+    text-transform: uppercase; 
+    z-index: 1000; 
+
+
+    a {
+        color: white; 
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #f8dcdc;
+    }
+
+}
+
+.home {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.copy {
+    text-align: center;
+    font-size: 24px;
+}
+
+.hed {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.con {
+    p {
+
+        font-size: large;
+        display: inline;
+        padding: 3rem;
+    }
+
+    h2 {
+        display: inline;
+    }
+
+    a {
+        color: white;
+
+    }
+}
+
+.mail {
+    color: white;
+    text-decoration: none;
+}
